@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web:
-    image: 011837373437.dkr.ecr.us-east-1.amazonaws.com/test-repository:simplewebapp
+    image: 303329963705.dkr.ecr.us-east-1.amazonaws.com/test-repository:simplewebapp
     ports:
       - "8080:8080"
     deploy:
