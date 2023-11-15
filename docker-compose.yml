@@ -9,4 +9,4 @@ services:
       replicas: 3
       placement:
         constraints:
-          - node.hostname != managernode
+          - node.labels.managernode != true
